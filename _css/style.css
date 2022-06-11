@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html{
+  --light-black: #A6A4A3;
+  --black: #0C0C0C;
+  --blanck: #ffff;
+
+}
+
+.content{
+  width: 100%;
+  margin: 0 auto;
+}
+
+body{
+  background-color: var(--light-black);
+}
+
+h5{
+  color: #0C0C0C;
+  font-size: 36px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.page-section{
+  margin-top: 55px;
+}
+
+.page-container{
+  margin-top: 75px;
+}
+
+.row{
+  margin-top: 105px;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 500px;
+  background-color: var(--black);
+  color: var(--blanck);
+}
